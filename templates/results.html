@@ -1,0 +1,19 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mood Analysis Results</title>
+</head>
+<body>
+<h1>Your Mood: {{ mood }}</h1>
+<h3>Suggestions for Improving Your Mood:</h3>
+<ul>
+{% for suggestion in suggestions %}
+<li>{{ suggestion }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
+
